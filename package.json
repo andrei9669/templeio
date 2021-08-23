@@ -1,0 +1,49 @@
+{
+  "version": "0.0.1",
+  "scripts": {
+    "commit": "cz",
+    "release": "lerna version patch --conventional-commits",
+    "pre-release": "lerna version --conventional-prerelease --conventional-commits",
+    "publish": "lerna publish from-git",
+    "prepare": "husky install"
+  },
+  "homepage": "https://github.com/andrei9669/temple",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrei9669/temple"
+  },
+  "bugs": {
+    "url": "https://github.com/andrei9669/temple/issues"
+  },
+  "engines": {
+    "node": "^12.22.0 || ^14.17.0 || >=16.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{css,less,scss,html,json,jsx,js,ts,tsx}": [
+      "prettier --write"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "commitizen": "^4.2.4",
+    "conventional-changelog-conventionalcommits": "^4.6.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^7.0.1",
+    "lerna": "^4.0.0",
+    "lint-staged": "^11.1.2",
+    "prettier": "^2.3.2",
+    "standard-version": "^9.3.1"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  }
+}

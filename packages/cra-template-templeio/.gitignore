@@ -1,0 +1,12 @@
+.idea
+.vscode
+
+# dependencies
+/node_modules
+
+# template
+/template/node_modules
+/template/package.json
+/template/package-lock.json
+/template/.husky
+/template/coverage

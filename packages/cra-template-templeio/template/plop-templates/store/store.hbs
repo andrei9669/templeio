@@ -1,0 +1,12 @@
+import makeStore from '../makeStore';
+import reducer from './reducer';
+import { Store } from './interface'
+
+const initialState: Store = undefined;
+
+const [{{pascalCase name}}Provider, use{{pascalCase name}}Dispatch, use{{pascalCase name}}] = makeStore(
+  reducer,
+  initialState,
+);
+
+export { {{pascalCase name}}Provider, use{{pascalCase name}}Dispatch, use{{pascalCase name}} };

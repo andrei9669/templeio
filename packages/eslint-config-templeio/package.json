@@ -1,0 +1,54 @@
+{
+  "name": "@templeio/eslint-config-templeio",
+  "version": "0.0.1",
+  "description": "Base eslint conf for temple projects",
+  "main": "index.js",
+  "author": "Andrei Sirotin",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://github.com/andrei9669/temple",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrei9669/temple"
+  },
+  "bugs": {
+    "url": "https://github.com/andrei9669/temple/issues"
+  },
+  "engines": {
+    "node": "^12.22.0 || ^14.17.0 || >=16.0.0"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.15.0",
+    "@microsoft/tsdoc": "0.13.2",
+    "@typescript-eslint/eslint-plugin": "4.29.2",
+    "@typescript-eslint/parser": "4.29.2",
+    "eslint": "7.32.0",
+    "eslint-config-airbnb-base": "14.2.1",
+    "eslint-config-airbnb-typescript": "13.0.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-import-resolver-typescript": "^2.4.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "3.4.1",
+    "eslint-plugin-sonarjs": "0.10.0",
+    "eslint-plugin-tsdoc": "0.2.14",
+    "prettier": "2.3.2"
+  },
+  "peerDependencies": {
+    "@babel/eslint-parser": "^7.15.0",
+    "@microsoft/tsdoc": "0.13.2",
+    "@typescript-eslint/eslint-plugin": "4.29.2",
+    "@typescript-eslint/parser": "4.29.2",
+    "eslint": "7.32.0",
+    "eslint-config-airbnb": "18.2.1",
+    "eslint-config-airbnb-typescript": "13.0.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-import-resolver-typescript": "^2.4.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "3.4.1",
+    "eslint-plugin-sonarjs": "0.10.0",
+    "eslint-plugin-tsdoc": "0.2.14",
+    "prettier": "2.3.2"
+  }
+}
