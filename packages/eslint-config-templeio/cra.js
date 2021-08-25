@@ -39,14 +39,14 @@ module.exports = {
     'react-hooks/rules-of-hooks': 'error',
 
     'react/require-default-props': 0,
+    'react/no-unused-prop-types': 0,
+    'react/jsx-props-no-spreading': 0,
+    'react/prop-types': 0,
     'react/no-unstable-nested-components': 1,
     'react/boolean-prop-naming': 1,
-    'react/no-unused-prop-types': 0,
-    'react/prop-types': 0,
     'react/jsx-filename-extension': [
       1,
       { extensions: ['.js', '.jsx', '.tsx'] },
     ],
-    'react/jsx-props-no-spreading': 0,
   },
 };

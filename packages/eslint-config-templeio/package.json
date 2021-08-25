@@ -22,33 +22,35 @@
   "devDependencies": {
     "@babel/eslint-parser": "^7.15.0",
     "@microsoft/tsdoc": "0.13.2",
-    "@typescript-eslint/eslint-plugin": "4.29.2",
-    "@typescript-eslint/parser": "4.29.2",
+    "@typescript-eslint/eslint-plugin": "^4.29.3",
+    "@typescript-eslint/parser": "^4.29.3",
     "eslint": "7.32.0",
     "eslint-config-airbnb-base": "14.2.1",
-    "eslint-config-airbnb-typescript": "13.0.0",
+    "eslint-config-airbnb-typescript": "^14.0.0",
     "eslint-config-prettier": "8.3.0",
     "eslint-import-resolver-typescript": "^2.4.0",
-    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-import": "^2.24.2",
     "eslint-plugin-prettier": "3.4.1",
     "eslint-plugin-sonarjs": "0.10.0",
     "eslint-plugin-tsdoc": "0.2.14",
-    "prettier": "2.3.2"
+    "prettier": "2.3.2",
+    "eslint-plugin-jest-dom": "3.9.0"
   },
   "peerDependencies": {
     "@babel/eslint-parser": "^7.15.0",
     "@microsoft/tsdoc": "0.13.2",
-    "@typescript-eslint/eslint-plugin": "4.29.2",
-    "@typescript-eslint/parser": "4.29.2",
+    "@typescript-eslint/eslint-plugin": "^4.29.3",
+    "@typescript-eslint/parser": "^4.29.3",
     "eslint": "7.32.0",
-    "eslint-config-airbnb": "18.2.1",
-    "eslint-config-airbnb-typescript": "13.0.0",
+    "eslint-config-airbnb-base": "14.2.1",
+    "eslint-config-airbnb-typescript": "^14.0.0",
     "eslint-config-prettier": "8.3.0",
     "eslint-import-resolver-typescript": "^2.4.0",
-    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-import": "^2.24.2",
     "eslint-plugin-prettier": "3.4.1",
     "eslint-plugin-sonarjs": "0.10.0",
     "eslint-plugin-tsdoc": "0.2.14",
-    "prettier": "2.3.2"
+    "prettier": "2.3.2",
+    "eslint-plugin-jest-dom": "3.9.0"
   }
 }
