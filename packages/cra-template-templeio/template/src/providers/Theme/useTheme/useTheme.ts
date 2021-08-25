@@ -1,6 +1,6 @@
-import { useMediaQuery } from '@material-ui/core';
 import { useEffect, useMemo } from 'react';
-import { Theme } from '@material-ui/core';
+import { useMediaQuery } from '@material-ui/core';
+import type { Theme } from '@material-ui/core';
 
 import { useDarkMode, useDarkModeDispatch } from '@store/darkMode/store';
 

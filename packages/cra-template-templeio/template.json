@@ -80,7 +80,7 @@
     "devDependencies": {
       "@kyleshevlin/eslint-plugin": "1.3.0",
       "@microsoft/tsdoc": "0.13.2",
-      "@templeio/eslint-config-templeio": "https://gitpkg.now.sh/andrei9669/temple/packages/eslint-config-templeio?%40templeio/eslint-config-templeio%400.0.4",
+      "@templeio/eslint-config-templeio": "https://gitpkg.now.sh/andrei9669/temple/packages/eslint-config-templeio?%40templeio/eslint-config-templeio%400.0.5-alpha.0",
       "@types/jest": "27.0.1",
       "@types/node": "16.7.1",
       "@types/react": "17.0.19",

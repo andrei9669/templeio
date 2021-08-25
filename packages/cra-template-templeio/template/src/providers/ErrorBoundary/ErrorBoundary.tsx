@@ -20,7 +20,7 @@ export default class ErrorBoundary extends Component<
 
   componentDidCatch(error: Error, errorInfo: ErrorInfo): void {
     if (process.env.REACT_APP_SENTRY_DSN) {
-      console.log(errorInfo)
+      console.error(errorInfo);
       // Sentry.withScope((scope) => {
       //   scope.setExtras({ errorInfo });
       //   Sentry.captureException(error);

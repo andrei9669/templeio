@@ -4,11 +4,7 @@ import AppProviders from 'providers/AppProviders';
 
 import AppRoutes from './routes/AppRoutes';
 
-type IApp = {
-  (): ReactElement;
-};
-
-export const App: IApp = () => (
+export const App = (): ReactElement => (
   <AppProviders>
     <header>header</header>
     <nav>

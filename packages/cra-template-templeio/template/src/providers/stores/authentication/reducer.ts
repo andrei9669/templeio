@@ -1,10 +1,13 @@
 import { Reducer } from 'react';
 
-const reducer: Reducer<unknown, unknown> = (state, action) => {
+type State = { isAuthorized: boolean };
+type Action = boolean;
+
+const reducer: Reducer<State, Action> = (state, action) => {
   if (action === undefined) {
     return state;
   }
-  return action;
+  return { isAuthorized: action };
 };
 
 export default reducer;
