@@ -31,6 +31,15 @@
   "publishConfig": {
     "access": "public"
   },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "volta": {
+    "node": "14.17.5",
+    "npm": "7.21.0"
+  },
   "devDependencies": {
     "commitizen": "^4.2.4",
     "conventional-changelog-conventionalcommits": "^4.6.0",
@@ -40,10 +49,5 @@
     "lint-staged": "^11.1.2",
     "prettier": "^2.3.2",
     "standard-version": "^9.3.1"
-  },
-  "workspaces": {
-    "packages": [
-      "packages/*"
-    ]
   }
 }

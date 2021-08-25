@@ -91,7 +91,7 @@
       "@types/testing-library__jest-dom": "5.14.1",
       "@typescript-eslint/eslint-plugin": "4.29.2",
       "@typescript-eslint/parser": "4.29.2",
-      "@templeio/eslint-config-templeio": "0.0.1",
+      "@templeio/eslint-config-templeio": "https://github.com/andrei9669/temple/tree/main/packages/eslint-config-templeio@0.0.2",
       "auto-changelog": "2.3.0",
       "commitizen": "4.2.4",
       "conventional-changelog-conventionalcommits": "^4.6.0",
