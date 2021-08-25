@@ -4,4 +4,7 @@ declare module '@material-ui/core/styles/createTheme' {
   export interface ThemeOptions {
     isDarkMode: boolean;
   }
+  export interface Theme {
+    isDarkMode: boolean;
+  }
 }
