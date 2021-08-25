@@ -4,8 +4,7 @@ To start the development, run:
 
 ```
 git init
-npm install
-npm set-script prepare "husky install" && npm run prepare
+npm run prepare
 ```
 
 This should result in cloning the project, 
@@ -22,10 +21,6 @@ To use on local environment copy .env.dist to root folder as .env and fill any m
 ## Available Scripts
 
 In the project directory, you can run:
-
-### `npm lint(:fix)`
-
-Runs the linter (and fixes fixable issues)
 
 ### `npm plop`
 
