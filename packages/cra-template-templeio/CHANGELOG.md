@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.5-alpha.0](https://github.com/andrei9669/temple/compare/@templeio/cra-template-templeio@0.0.4...@templeio/cra-template-templeio@0.0.5-alpha.0) (2021-08-25)
+
+**Note:** Version bump only for package @templeio/cra-template-templeio
+
+
+
+
+
 ## [0.0.4](https://github.com/andrei9669/temple/compare/@templeio/cra-template-templeio@0.0.3...@templeio/cra-template-templeio@0.0.4) (2021-08-25)
 
 
