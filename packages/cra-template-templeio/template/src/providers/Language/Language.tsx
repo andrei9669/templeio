@@ -1,11 +1,10 @@
 import React from 'react';
 
 import useLanguage from './useLanguage/useLanguage';
-import { LanguageProps } from './Language.types';
 
 import 'i18n';
 
-const Language: LanguageProps = ({ children }) => {
+const Language: React.FC = ({ children }) => {
   const loaded = useLanguage();
 
   if (!loaded) {
