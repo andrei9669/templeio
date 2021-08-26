@@ -1,7 +1,7 @@
 {
   "name": "@templeio/eslint-config-templeio",
   "version": "0.0.5-alpha.3",
-  "description": "Base eslint conf for temple projects",
+  "description": "Base eslint conf for templeio projects",
   "main": "index.js",
   "author": "Andrei Sirotin",
   "license": "MIT",
@@ -9,13 +9,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/andrei9669/temple",
+  "homepage": "https://github.com/andrei9669/templeio",
   "repository": {
     "type": "git",
-    "url": "https://github.com/andrei9669/temple"
+    "url": "https://github.com/andrei9669/templeio"
   },
   "bugs": {
-    "url": "https://github.com/andrei9669/temple/issues"
+    "url": "https://github.com/andrei9669/templeio/issues"
   },
   "engines": {
     "node": "^12.22.0 || ^14.17.0 || >=16.0.0"

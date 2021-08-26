@@ -1,17 +1,17 @@
 {
   "name": "@templeio/cra-template-templeio",
   "version": "0.0.5-alpha.4",
-  "description": "template for react app",
+  "description": "template for create react app",
   "author": "Andrei Sirotin",
   "license": "MIT",
   "private": false,
-  "homepage": "https://github.com/andrei9669/temple",
+  "homepage": "https://github.com/andrei9669/templeio",
   "repository": {
     "type": "git",
-    "url": "https://github.com/andrei9669/temple"
+    "url": "https://github.com/andrei9669/templeio"
   },
   "bugs": {
-    "url": "https://github.com/andrei9669/temple/issues"
+    "url": "https://github.com/andrei9669/templeio/issues"
   },
   "engines": {
     "node": "^12.22.0 || ^14.17.0 || >=16.0.0"

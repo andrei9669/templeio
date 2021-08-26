@@ -1,7 +1,7 @@
-<h1 align="center">Welcome to @templeio/cra-template-templeio 👋</h1>
+<h1 align="center">Welcome to @templeio/eslint-config-templeio 👋</h1>
 <p>
-  <a href="https://www.npmjs.com/package/@templeio/cra-template-templeio" target="_blank">
-    <img alt="Version" src="https://img.shields.io/npm/v/@templeio/cra-template-templeio.svg">
+  <a href="https://www.npmjs.com/package/@templeio/eslint-config-templeio" target="_blank">
+    <img alt="Version" src="https://img.shields.io/npm/v/@templeio/eslint-config-templeio.svg">
   </a>
   <img src="https://img.shields.io/badge/node-%5E12.22.0%20%7C%7C%20%5E14.17.0%20%7C%7C%20%3E%3D16.0.0-blue.svg" />
   <a href="https://github.com/andrei9669/templeio#readme" target="_blank">
@@ -12,8 +12,7 @@
   </a>
 </p>
 
-> template for create react app.
-> Template is based on [react-starter-boilerplate](https://github.com/TheSoftwareHouse/react-starter-boilerplate)
+> Base eslint conf for templeio projects
 
 ### 🏠 [Homepage](https://github.com/andrei9669/templeio)
 
@@ -24,7 +23,30 @@
 ## Install
 
 ```sh
-npx create-react-app --template @templeio/cra-template-templeio
+npm install @templeio/eslint-config-templeio
+```
+
+## Usage
+### create-react-app
+```js
+// eslintrc.js
+module.exports = {
+  extends: ['@templeio/eslint-config-templeio/cra'],
+};
+```
+### base
+```js
+// eslintrc.js
+module.exports = {
+  extends: ['@templeio/eslint-config-templeio'],
+};
+```
+### nest
+```js
+// eslintrc.js
+module.exports = {
+  extends: ['@templeio/eslint-config-templeio/nest'],
+};
 ```
 
 ## Author
