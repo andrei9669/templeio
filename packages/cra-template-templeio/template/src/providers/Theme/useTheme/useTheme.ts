@@ -10,13 +10,12 @@ const useTheme = (): Theme => {
   const prefersDarkMode = useMediaQuery('(prefers-color-scheme: dark)');
   const dispatch = useDarkModeDispatch();
   const isDarkMode = useDarkMode();
-  const theme = useMemo(() => createTheme(isDarkMode), [isDarkMode]);
 
   useEffect(() => {
     dispatch(prefersDarkMode);
   }, [dispatch, prefersDarkMode]);
 
-  return theme;
+  return useMemo(() => createTheme(isDarkMode), [isDarkMode]);
 };
 
 export default useTheme;
