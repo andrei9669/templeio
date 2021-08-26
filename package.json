@@ -7,6 +7,7 @@
     "publish": "lerna publish from-git",
     "prepare": "husky install"
   },
+  "private": false,
   "homepage": "https://github.com/andrei9669/temple",
   "repository": {
     "type": "git",
