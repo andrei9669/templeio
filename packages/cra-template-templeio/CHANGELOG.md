@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.5-alpha.5](https://github.com/andrei9669/templeio/compare/@templeio/cra-template-templeio@0.0.5-alpha.4...@templeio/cra-template-templeio@0.0.5-alpha.5) (2021-08-26)
+
+
+### Bug Fixes
+
+* **readmes:** update readmes to something generic ([b025fa9](https://github.com/andrei9669/templeio/commit/b025fa93d1e3e32b20cdb9206e874f342d3dd8c9))
+
+
+
+
+
 ## [0.0.5-alpha.4](https://github.com/andrei9669/temple/compare/@templeio/cra-template-templeio@0.0.5-alpha.3...@templeio/cra-template-templeio@0.0.5-alpha.4) (2021-08-26)
 
 
