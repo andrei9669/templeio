@@ -1,6 +1,6 @@
 {
   "name": "@templeio/eslint-config-templeio",
-  "version": "0.0.5-alpha.4",
+  "version": "0.1.0-alpha.0",
   "description": "Base eslint conf for templeio projects",
   "main": "index.js",
   "author": "Andrei Sirotin",

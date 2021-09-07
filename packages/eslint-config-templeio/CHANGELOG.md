@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.1.0-alpha.0](https://github.com/andrei9669/templeio/compare/@templeio/eslint-config-templeio@0.0.5-alpha.4...@templeio/eslint-config-templeio@0.1.0-alpha.0) (2021-09-07)
+
+
+### Bug Fixes
+
+* **eslint:** change import rules ([5d858e8](https://github.com/andrei9669/templeio/commit/5d858e87b7b5bdcb927af03288f0fa05a4a6ebef))
+
+
+### Features
+
+* **eslint:** update requirements in readme ([d9555e3](https://github.com/andrei9669/templeio/commit/d9555e395bbf08f28daf8697c34c2ace60ec0607))
+* **eslint-cra:** add rule for unnecessary fragments ([d0165ca](https://github.com/andrei9669/templeio/commit/d0165ca21c99c3d70bd792c96766ce50eb71e67e))
+
+
+
+
+
 ## [0.0.5-alpha.4](https://github.com/andrei9669/templeio/compare/@templeio/eslint-config-templeio@0.0.5-alpha.3...@templeio/eslint-config-templeio@0.0.5-alpha.4) (2021-08-26)
 
 

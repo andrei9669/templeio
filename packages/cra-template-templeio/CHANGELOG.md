@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.1.0-alpha.0](https://github.com/andrei9669/templeio/compare/@templeio/cra-template-templeio@0.0.5-alpha.5...@templeio/cra-template-templeio@0.1.0-alpha.0) (2021-09-07)
+
+
+### Features
+
+* **cra-template:** implement cypress ([b062862](https://github.com/andrei9669/templeio/commit/b062862cdc771880522f3e64a69ed769a3a92d4a))
+* **cra-template:** update update packages ([0a01f43](https://github.com/andrei9669/templeio/commit/0a01f4353c97bfe733eae09eaa8abb54ed82b28f))
+
+
+
+
+
 ## [0.0.5-alpha.5](https://github.com/andrei9669/templeio/compare/@templeio/cra-template-templeio@0.0.5-alpha.4...@templeio/cra-template-templeio@0.0.5-alpha.5) (2021-08-26)
 
 
