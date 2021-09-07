@@ -19,6 +19,7 @@
 ## Prerequisites
 
 - node ^12.22.0 || ^14.17.0 || >=16.0.0
+- valid `tsconfig.json` in root directory
 
 ## Install
 
