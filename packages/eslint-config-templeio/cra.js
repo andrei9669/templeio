@@ -48,6 +48,7 @@ module.exports = {
       1,
       { extensions: ['.js', '.jsx', '.tsx'] },
     ],
+    'react/jsx-no-useless-fragment': 1,
   },
   overrides: [
     {
