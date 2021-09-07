@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { render, screen, waitFor } from 'tests';
+import { render, screen, waitFor } from '@/tests';
 
 import Language from './Language';
 

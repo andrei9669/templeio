@@ -1,7 +1,7 @@
 import React from 'react';
 import { waitFor } from '@testing-library/dom';
 
-import { render } from 'tests';
+import { render } from '@/tests';
 
 import AppProviders from './AppProviders';
 

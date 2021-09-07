@@ -24,7 +24,7 @@ In the project directory, you can run:
 
 ### `npm plop`
 
-Runs [Plop JS](https://plopjs.com/) used for generating custom hooks and react components.
+Runs [Plop JS](https://plopjs.com/), used for generating custom hooks and react components.
 
 ### `npm start`
 

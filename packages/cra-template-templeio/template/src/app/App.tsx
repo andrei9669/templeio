@@ -1,6 +1,6 @@
 import React, { ReactElement } from 'react';
 
-import AppProviders from 'providers/AppProviders';
+import AppProviders from 'src/providers/AppProviders';
 
 import AppRoutes from './routes/AppRoutes';
 

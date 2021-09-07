@@ -6,6 +6,6 @@ describe('useTheme', () => {
   test('returns a value', async () => {
     const { result } = renderHook(useTheme);
 
-    expect(result.current.isDarkMode).toBe(false)
+    expect(result.current.isDarkMode).toBe(false);
   });
 });

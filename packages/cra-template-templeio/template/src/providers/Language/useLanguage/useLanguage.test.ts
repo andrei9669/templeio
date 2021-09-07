@@ -1,6 +1,6 @@
 import { renderHook } from '@testing-library/react-hooks';
 
-import { waitFor } from 'tests';
+import { waitFor } from '@/tests';
 
 import useLanguage from './useLanguage';
 

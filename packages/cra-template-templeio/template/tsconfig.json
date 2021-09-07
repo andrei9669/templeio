@@ -2,13 +2,10 @@
   "extends": "./tsconfig.paths.json",
   "compilerOptions": {
     "target": "es6",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "types": ["jest", "@testing-library/jest-dom"],
     "allowJs": true,
-    "baseUrl": "src",
+    "baseUrl": ".",
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
@@ -22,11 +19,6 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": [
-    "src",
-    ".eslintrc.js"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["src", ".eslintrc.js"],
+  "exclude": ["node_modules", "*.test.(ts|tsx))"]
 }

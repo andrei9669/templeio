@@ -1,7 +1,7 @@
 import { waitFor } from '@testing-library/dom';
 import React from 'react';
 
-import { render } from 'tests';
+import { render } from '@/tests';
 
 import Theme from '.';
 
