@@ -1,7 +1,7 @@
 module.exports = {
   env: {
     es2021: true,
-    'shared-node-browser': true,
+    browser: true,
     jest: true,
   },
   parser: '@typescript-eslint/parser',
@@ -35,6 +35,11 @@ module.exports = {
     'prettier',
   ],
   rules: {
+    '@kyleshevlin/prefer-custom-hooks': [
+      2,
+      { allow: ['useMemo', 'useState', 'useReducer', 'useRef'] },
+    ],
+
     'react-hooks/exhaustive-deps': 'warn',
     'react-hooks/rules-of-hooks': 'error',
 
