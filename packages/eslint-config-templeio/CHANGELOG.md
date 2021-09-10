@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.1.0-alpha.1](https://github.com/andrei9669/templeio/compare/@templeio/eslint-config-templeio@0.1.0-alpha.0...@templeio/eslint-config-templeio@0.1.0-alpha.1) (2021-09-10)
+
+
+### Bug Fixes
+
+* **eslint-cra:** add hooks lint ([f76ee60](https://github.com/andrei9669/templeio/commit/f76ee60ec978c33f8f2b33cf0fb209c430cff1f9))
+
+
+
+
+
 # [0.1.0-alpha.0](https://github.com/andrei9669/templeio/compare/@templeio/eslint-config-templeio@0.0.5-alpha.4...@templeio/eslint-config-templeio@0.1.0-alpha.0) (2021-09-07)
 
 
