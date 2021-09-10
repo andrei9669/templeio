@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-import i18n, { LOCAL_STORAGE_KEY } from 'i18n';
+import i18n, { LOCAL_STORAGE_KEY } from '@/i18n';
 
 const useLanguage = (): boolean => {
   const [isLanguageLoaded, setIsLanguageLoaded] = useState(false);

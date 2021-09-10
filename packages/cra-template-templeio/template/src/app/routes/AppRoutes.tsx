@@ -1,7 +1,6 @@
 import React from 'react';
 import { Redirect, Switch } from 'react-router-dom';
 
-
 const AppRoutes: React.FC = () => (
   <Switch>
     {/* <Route path="/" exact component={Home} /> */}

@@ -1,10 +1,10 @@
 import React, { ReactElement } from 'react';
 
-import AppProviders from 'src/providers/AppProviders';
+import AppProviders from '@/providers/AppProviders';
 
 import AppRoutes from './routes/AppRoutes';
 
-export const App = (): ReactElement => (
+const App = (): ReactElement => (
   <AppProviders>
     <header>header</header>
     <nav>
@@ -38,3 +38,5 @@ export const App = (): ReactElement => (
     <footer>footer</footer>
   </AppProviders>
 );
+
+export default App;

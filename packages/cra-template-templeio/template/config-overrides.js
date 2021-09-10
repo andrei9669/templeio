@@ -1,3 +1,5 @@
+const path = require('path');
+
 const conf = require('./tsconfig.paths.json');
 
 module.exports = function override(config) {
@@ -8,7 +10,7 @@ module.exports = function override(config) {
       ...Object.entries(conf.compilerOptions.paths).reduce((acc, cur) => {
         const key = cur[0].replace(/\/\*$/, '');
         const value = cur[1][0].replace(/\/\*$/, '');
-        return { ...acc, [key]: value };
+        return { ...acc, [key]: path.resolve(__dirname, value) };
       }, {}),
     },
   };

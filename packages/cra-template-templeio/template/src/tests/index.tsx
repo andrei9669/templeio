@@ -3,7 +3,7 @@ import React from 'react';
 import { Queries } from '@testing-library/dom';
 import { render, RenderOptions, RenderResult } from '@testing-library/react';
 
-import AppProviders from '@/providers/AppProviders';
+import AppProviders from 'providers/AppProviders';
 
 function customRender(
   ui: React.ReactElement,
