@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.1.0-alpha.2](https://github.com/andrei9669/templeio/compare/@templeio/eslint-config-templeio@0.1.0-alpha.1...@templeio/eslint-config-templeio@0.1.0-alpha.2) (2021-09-10)
+
+
+### Bug Fixes
+
+* **template-cra:** fix paths ([7c71961](https://github.com/andrei9669/templeio/commit/7c71961ec839464459c8769e51f63f7cda40c78e))
+
+
+
+
+
 # [0.1.0-alpha.1](https://github.com/andrei9669/templeio/compare/@templeio/eslint-config-templeio@0.1.0-alpha.0...@templeio/eslint-config-templeio@0.1.0-alpha.1) (2021-09-10)
 
 
