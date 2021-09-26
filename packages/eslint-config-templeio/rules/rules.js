@@ -1,33 +1,33 @@
 module.exports = {
   rules: {
     'prettier/prettier': [
-      'warn',
+      1,
       {
         trailingComma: 'all',
         tabWidth: 2,
         useTabs: false,
         singleQuote: true,
-        jsxBracketSameLine: false,
+        bracketSameLine: false,
         arrowParens: 'always',
         printWidth: 80,
       },
     ],
 
-    'tsdoc/syntax': 'warn',
+    'tsdoc/syntax': 1,
 
     'no-plusplus': 0,
     'no-param-reassign': [2, { props: false }],
-    'no-console': ['warn', { allow: ['warn', 'error', 'info'] }],
-    'no-unneeded-ternary': 'error',
+    'no-console': [1, { allow: ['warn', 'error', 'info'] }],
+    'no-unneeded-ternary': 2,
     'no-unused-vars': 0,
     'no-use-before-define': 0,
     'no-fallthrough': 0,
-    'no-lonely-if': 'error',
-    complexity: ['warn', 30],
-    'prefer-arrow-callback': ['error'],
+    'no-lonely-if': 2,
+    complexity: 1,
+    'prefer-arrow-callback': [2],
     camelcase: [0, { properties: 'never' }],
     'prefer-const': [
-      'error',
+      2,
       {
         destructuring: 'all',
         ignoreReadBeforeAssign: false,
@@ -35,7 +35,7 @@ module.exports = {
     ],
     'no-underscore-dangle': [1, { allowAfterThis: true }],
 
-    '@typescript-eslint/no-use-before-define': 'error',
+    '@typescript-eslint/no-use-before-define': 2,
     '@typescript-eslint/no-unused-vars': 1,
     '@typescript-eslint/strict-boolean-expressions': [
       2,
@@ -50,7 +50,7 @@ module.exports = {
       },
     ],
     '@typescript-eslint/explicit-module-boundary-types': [
-      'error',
+      2,
       {
         allowArgumentsExplicitlyTypedAsAny: false,
         allowDirectConstAssertionInArrowFunctions: true,
@@ -60,8 +60,10 @@ module.exports = {
       },
     ],
 
-    'sonarjs/no-duplicate-string': 'warn',
-    'sonarjs/no-identical-functions': 'warn',
-    'sonarjs/no-collapsible-if': 'warn',
+    'sonarjs/no-duplicate-string': 1,
+    'sonarjs/no-identical-functions': 1,
+    'sonarjs/no-collapsible-if': 1,
+    'sonarjs/no-nested-template-literals': 0,
+    'sonarjs/cognitive-complexity': 0,
   },
 };

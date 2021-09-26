@@ -1,10 +1,6 @@
 module.exports = {
   plugins: ['import'],
-  extends: [
-    'plugin:import/errors',
-    'plugin:import/warnings',
-    'plugin:import/typescript',
-  ],
+  extends: ['plugin:import/recommended', 'plugin:import/typescript'],
   rules: {
     'import/extensions': [
       'error',

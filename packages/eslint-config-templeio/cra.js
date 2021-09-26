@@ -40,8 +40,8 @@ module.exports = {
       { allow: ['useMemo', 'useState', 'useReducer', 'useRef'] },
     ],
 
-    'react-hooks/exhaustive-deps': 'warn',
-    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 1,
+    'react-hooks/rules-of-hooks': 2,
 
     'react/require-default-props': 0,
     'react/no-unused-prop-types': 0,
@@ -49,19 +49,20 @@ module.exports = {
     'react/prop-types': 0,
     'react/no-unstable-nested-components': 1,
     'react/boolean-prop-naming': 1,
+    'react/jsx-no-useless-fragment': 1,
+    'react/jsx-no-duplicate-props': [2, { ignoreCase: false }],
     'react/jsx-filename-extension': [
       1,
       { extensions: ['.js', '.jsx', '.tsx'] },
     ],
-    'react/jsx-no-useless-fragment': 1,
   },
   overrides: [
     {
       files: ['**/!(setupTests|test/utils|*.spec.*|*.test.*).ts?x'],
       rules: {
-        '@typescript-eslint/no-empty-function': 'error',
+        '@typescript-eslint/no-empty-function': 2,
         '@typescript-eslint/explicit-function-return-type': [
-          'error',
+          2,
           {
             allowExpressions: true,
           },
