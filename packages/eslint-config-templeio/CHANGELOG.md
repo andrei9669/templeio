@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.1](https://github.com/andrei9669/templeio/compare/@templeio/eslint-config-templeio@0.1.0...@templeio/eslint-config-templeio@0.1.1) (2021-09-26)
+
+
+### Features
+
+* **dependencies:** update ([0dae196](https://github.com/andrei9669/templeio/commit/0dae196aecd87b4caa68bf51ff283d4d8fe698ae))
+
+
+
+
+
 # [0.1.0](https://github.com/andrei9669/templeio/compare/@templeio/eslint-config-templeio@0.1.0-alpha.2...@templeio/eslint-config-templeio@0.1.0) (2021-09-26)
 
 
