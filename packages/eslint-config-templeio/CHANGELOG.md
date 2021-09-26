@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.1.0](https://github.com/andrei9669/templeio/compare/@templeio/eslint-config-templeio@0.1.0-alpha.2...@templeio/eslint-config-templeio@0.1.0) (2021-09-26)
+
+
+### Features
+
+* **normalize eslint rules:** change warn and err to 1 and 2 ([c09e8fd](https://github.com/andrei9669/templeio/commit/c09e8fda9e582a500eec9f4597671a44c32c5052))
+
+
+
+
+
 # [0.1.0-alpha.2](https://github.com/andrei9669/templeio/compare/@templeio/eslint-config-templeio@0.1.0-alpha.1...@templeio/eslint-config-templeio@0.1.0-alpha.2) (2021-09-10)
 
 
