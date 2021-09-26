@@ -16,5 +16,6 @@
   "engines": {
     "node": "^12.22.0 || ^14.17.0 || >=16.0.0"
   },
+  "workspace": "../../package.json",
   "gitHead": "5fc7d322d02cc3c7f3126561f643bc7734edfbaf"
 }
