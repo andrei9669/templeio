@@ -6,7 +6,7 @@ import { AuthenticationProvider } from '@store/authentication/store';
 
 import ErrorBoundary from './ErrorBoundary';
 import Language from './Language';
-import ThemeProvider from './Theme';
+import ThemeProvider from './ThemeProvider';
 
 const AppProviders: React.FC = ({ children }) => (
   <Language>

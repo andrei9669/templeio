@@ -2,7 +2,7 @@ import { renderHook } from '@testing-library/react-hooks';
 
 import { waitFor } from '@/tests';
 
-import useLanguage from './useLanguage';
+import useLanguage from '.';
 
 describe('useLanguage', () => {
   test('returns a value', async () => {

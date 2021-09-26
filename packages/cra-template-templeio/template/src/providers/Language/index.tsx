@@ -1,4 +1,4 @@
-import useLanguage from './useLanguage/useLanguage';
+import useLanguage from 'src/providers/Language/useLanguage';
 
 import '@/i18n';
 

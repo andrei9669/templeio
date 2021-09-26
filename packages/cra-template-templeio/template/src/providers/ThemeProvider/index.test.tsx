@@ -3,11 +3,11 @@ import React from 'react';
 
 import { render } from '@/tests';
 
-import Theme from '.';
+import ThemeProvider from '.';
 
 describe('Theme', () => {
   test('renders', async () => {
-    const { getByText } = render(<Theme>Theme</Theme>);
+    const { getByText } = render(<ThemeProvider>Theme</ThemeProvider>);
     await waitFor(() => {
       const element = getByText('Theme');
 

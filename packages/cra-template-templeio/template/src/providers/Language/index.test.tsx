@@ -2,7 +2,7 @@ import React from 'react';
 
 import { render, screen, waitFor } from '@/tests';
 
-import Language from './Language';
+import Language from '.';
 
 describe('Language', () => {
   test('renders', async () => {

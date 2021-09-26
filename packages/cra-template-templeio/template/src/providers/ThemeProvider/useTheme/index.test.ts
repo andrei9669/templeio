@@ -1,6 +1,6 @@
 import { renderHook } from '@testing-library/react-hooks';
 
-import useTheme from './useTheme';
+import useTheme from '.';
 
 describe('useTheme', () => {
   test('returns a value', async () => {

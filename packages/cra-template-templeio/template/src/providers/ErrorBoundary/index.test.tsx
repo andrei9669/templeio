@@ -3,7 +3,7 @@ import React from 'react';
 
 import { render } from '@/tests';
 
-import ErrorBoundary from './ErrorBoundary';
+import ErrorBoundary from '.';
 
 describe('ErrorBoundary', () => {
   test('returns children when no error', async () => {
