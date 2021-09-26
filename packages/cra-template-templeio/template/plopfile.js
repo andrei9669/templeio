@@ -24,18 +24,13 @@ const customHookGenerator = () => ({
   actions: () => [
     {
       type: 'add',
-      path: 'src/{{directory}}/{{camelCase name}}/{{camelCase name}}.ts',
-      templateFile: 'plop-templates/hook/hook.hbs',
-    },
-    {
-      type: 'add',
-      path: 'src/{{directory}}/{{camelCase name}}/index.ts',
+      path: 'src/{{directory}}/{{camelCase name}}/index.tsx',
       templateFile: 'plop-templates/hook/index.hbs',
     },
     {
       type: 'add',
-      path: 'src/{{directory}}/{{camelCase name}}/{{camelCase name}}.test.ts',
-      templateFile: 'plop-templates/hook/hook.test.hbs',
+      path: 'src/{{directory}}/{{camelCase name}}/index.test.ts',
+      templateFile: 'plop-templates/hook/index.test.hbs',
     },
   ],
 });
@@ -58,18 +53,13 @@ const reactComponentGenerator = () => ({
   actions: () => [
     {
       type: 'add',
-      path: `src/{{directory}}/{{pascalCase name}}/{{pascalCase name}}.tsx`,
-      templateFile: 'plop-templates/component/Component.hbs',
-    },
-    {
-      type: 'add',
       path: `src/{{directory}}/{{pascalCase name}}/index.ts`,
       templateFile: 'plop-templates/component/index.hbs',
     },
     {
       type: 'add',
-      path: `src/{{directory}}/{{pascalCase name}}/{{pascalCase name}}.test.tsx`,
-      templateFile: 'plop-templates/component/Component.test.hbs',
+      path: `src/{{directory}}/{{pascalCase name}}/index.test.tsx`,
+      templateFile: 'plop-templates/component/index.test.hbs',
     },
   ],
 });

@@ -1,1 +1,9 @@
-export { default } from './{{camelCase name}}';
+import { useState } from 'react';
+
+const {{camelCase name}} = (): string => {
+  const [state] = useState('1');
+
+  return state;
+};
+
+export default {{camelCase name}}
