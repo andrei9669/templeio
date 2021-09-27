@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.3](https://github.com/andrei9669/templeio/compare/@templeio/eslint-config-templeio@0.1.2...@templeio/eslint-config-templeio@0.1.3) (2021-09-27)
+
+
+### Bug Fixes
+
+* **eslint config:** react app flow type ([1241e94](https://github.com/andrei9669/templeio/commit/1241e945e240f6a1f030951c4c3d752e71f8eaa3))
+
+
+
+
+
 ## [0.1.2](https://github.com/andrei9669/templeio/compare/@templeio/eslint-config-templeio@0.1.1...@templeio/eslint-config-templeio@0.1.2) (2021-09-27)
 
 
