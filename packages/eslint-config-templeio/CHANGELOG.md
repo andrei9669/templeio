@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.2](https://github.com/andrei9669/templeio/compare/@templeio/eslint-config-templeio@0.1.1...@templeio/eslint-config-templeio@0.1.2) (2021-09-27)
+
+
+### Bug Fixes
+
+* **eslint config:** react app eslint config dep ([6833d2d](https://github.com/andrei9669/templeio/commit/6833d2d5eb96a3df919fa37c875fddb787964c79))
+
+
+
+
+
 ## [0.1.1](https://github.com/andrei9669/templeio/compare/@templeio/eslint-config-templeio@0.1.0...@templeio/eslint-config-templeio@0.1.1) (2021-09-26)
 
 
