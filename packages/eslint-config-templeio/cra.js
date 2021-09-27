@@ -14,6 +14,7 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: [
+    'eslint-plugin-flowtype',
     'sonarjs',
     'react',
     '@kyleshevlin',
