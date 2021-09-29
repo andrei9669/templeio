@@ -24,8 +24,35 @@
 ## Install
 
 ```sh
-npx create-react-app --template @templeio/cra-template-templeio
+npx create-react-app my-app --template @templeio/cra-template-templeio
 ```
+
+## Features
+1. Typescript
+2. [Opinionated style-guide](https://github.com/andrei9669/templeio/tree/main/packages/eslint-config-templeio)
+3. Code structure to reference from.
+4. Notable dependencies
+   - i18next - for localization
+   - Material ui(v4) - component library
+   - styled-components - for styling
+   - react-router-dom - for routing
+5. Notable dev dependencies
+   - cypress - for E2E testing
+   - commitizen, standard-version... - for conventional changelogs
+   - npm-check - for interactive package update
+   - react-app-rewired - for path aliasing but also for custom configuration
+
+## TODO:
+- storybook
+- example app
+- base testing in template
+
+## Changelog generation
+1. Make changes to your code
+2. use `npm run commit` or [jetbrains plugin](https://plugins.jetbrains.com/plugin/7499-gittoolbox) to create [conventional commit](https://www.conventionalcommits.org/en/v1.0.0/)
+   - `npm run commit` uses [commitizen](https://github.com/commitizen/cz-cli) to generate commit.
+3. use `npm run release` to generate release using [standard-version](https://www.npmjs.com/package/standard-version).
+   standard-version uses conventional commits to generate changelog in `CHANGELOG.md` and also adds tag to the commit.
 
 ## Author
 
