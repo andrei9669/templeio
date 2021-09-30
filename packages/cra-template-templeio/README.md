@@ -34,7 +34,6 @@ npx create-react-app my-app --template @templeio/cra-template-templeio
 4. Notable dependencies
    - i18next - for localization
    - Material ui(v5) - component library
-   - styled-components - for styling
    - react-router-dom - for routing
 5. Notable dev dependencies
    - cypress - for E2E testing
