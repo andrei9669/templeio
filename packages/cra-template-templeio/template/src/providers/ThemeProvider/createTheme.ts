@@ -1,11 +1,10 @@
-import type { Theme } from '@material-ui/core';
-import { createTheme as createMuiTheme } from '@material-ui/core';
+import type { Theme } from '@mui/material';
+import { createTheme as createMuiTheme } from '@mui/material';
 
 const createTheme = (isDarkMode: boolean): Theme =>
   createMuiTheme({
-    isDarkMode,
     palette: {
-      type: isDarkMode ? 'dark' : 'light',
+      mode: isDarkMode ? 'dark' : 'light',
     },
   });
 

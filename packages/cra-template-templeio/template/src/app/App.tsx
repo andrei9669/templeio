@@ -7,31 +7,7 @@ import AppRoutes from './routes/AppRoutes';
 const App = (): ReactElement => (
   <AppProviders>
     <header>header</header>
-    <nav>
-      {/* <ul className="app__menu">
-        <li className="app__menu-item">
-          <Link className="app__menu-link" to={AppRoute.home}>
-            Home
-          </Link>
-        </li>
-        <li className="app__menu-item">
-          <Link className="app__menu-link" to={AppRoute.about}>
-            About
-          </Link>
-        </li>
-        <li className="app__menu-item">
-          <Link className="app__menu-link" to={AppRoute.help}>
-            Help
-          </Link>
-        </li>
-        <li className="app__menu-item">
-          <Link className="app__menu-link" to={isAuthorized ? AppRoute.logout : AppRoute.login}>
-            {isAuthorized ? 'Logout' : 'Login'}
-          </Link>
-        </li>
-      </ul> */}
-      nav
-    </nav>
+    <nav>nav</nav>
     <main>
       <AppRoutes />
     </main>

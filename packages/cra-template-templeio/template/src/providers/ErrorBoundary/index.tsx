@@ -5,7 +5,7 @@ import { ErrorBoundaryProps, ErrorBoundaryState } from './index.types';
 export default class ErrorBoundary extends Component<
   ErrorBoundaryProps,
   ErrorBoundaryState
-  > {
+> {
   constructor(props: ErrorBoundaryProps) {
     super(props);
 

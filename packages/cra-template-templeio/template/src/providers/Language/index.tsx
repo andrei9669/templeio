@@ -1,6 +1,6 @@
-import useLanguage from 'src/providers/Language/useLanguage';
-
 import '@/i18n';
+
+import useLanguage from './useLanguage';
 
 const Language = ({
   children,
