@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.4](https://github.com/andrei9669/templeio/compare/@templeio/cra-template-templeio@0.1.3...@templeio/cra-template-templeio@0.1.4) (2021-09-30)
+
+
+### Features
+
+* **template:** update material ui v4 to mui v5 ([a877301](https://github.com/andrei9669/templeio/commit/a8773012426a3906de51603b79688e6b85899c33))
+
+
+
+
+
 ## [0.1.3](https://github.com/andrei9669/templeio/compare/@templeio/cra-template-templeio@0.1.2...@templeio/cra-template-templeio@0.1.3) (2021-09-29)
 
 
