@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.6](https://github.com/andrei9669/templeio/compare/@templeio/cra-template-templeio@0.1.5...@templeio/cra-template-templeio@0.1.6) (2021-10-04)
+
+
+### Bug Fixes
+
+* **template:** plop conf ([54efcf7](https://github.com/andrei9669/templeio/commit/54efcf76a9dc1e4f9d829569626395333357d36f))
+
+
+
+
+
 ## [0.1.5](https://github.com/andrei9669/templeio/compare/@templeio/cra-template-templeio@0.1.4...@templeio/cra-template-templeio@0.1.5) (2021-09-30)
 
 
