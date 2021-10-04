@@ -53,7 +53,7 @@ const reactComponentGenerator = () => ({
   actions: () => [
     {
       type: 'add',
-      path: `src/{{directory}}/{{pascalCase name}}/index.ts`,
+      path: `src/{{directory}}/{{pascalCase name}}/index.tsx`,
       templateFile: 'plop-templates/component/index.hbs',
     },
     {
