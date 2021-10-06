@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.5](https://github.com/andrei9669/templeio/compare/@templeio/eslint-config-templeio@0.1.4...@templeio/eslint-config-templeio@0.1.5) (2021-10-06)
+
+
+### Features
+
+* **eslint:** add eslint comments plugin ([b4b537f](https://github.com/andrei9669/templeio/commit/b4b537ffb5682389b4372985906f42f6e2451e42))
+
+
+
+
+
 ## [0.1.4](https://github.com/andrei9669/templeio/compare/@templeio/eslint-config-templeio@0.1.3...@templeio/eslint-config-templeio@0.1.4) (2021-09-29)
 
 
