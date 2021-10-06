@@ -65,5 +65,7 @@ module.exports = {
     'sonarjs/no-collapsible-if': 1,
     'sonarjs/no-nested-template-literals': 0,
     'sonarjs/cognitive-complexity': 0,
+
+    'eslint-comments/require-description': 2,
   },
 };
