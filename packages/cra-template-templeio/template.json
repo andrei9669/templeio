@@ -49,7 +49,8 @@
     },
     "jest": {
       "moduleNameMapper": {
-        "^@store/(.*)$": "<rootDir>/src/providers/stores/$1"
+        "^@stores/(.*)$": "<rootDir>/src/providers/stores/$1",
+        "^@pages/(.*)$": "<rootDir>/src/app/pages/$1"
       },
       "collectCoverageFrom": [
         "src/**/*.{js,jsx,ts,tsx}",

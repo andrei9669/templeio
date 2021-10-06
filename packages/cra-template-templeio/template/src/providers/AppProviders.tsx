@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 
-import { DarkModeProvider } from '@store/darkMode/store';
-import { AuthenticationProvider } from '@store/authentication/store';
+import { DarkModeProvider } from '@stores/darkMode/store';
+import { AuthenticationProvider } from '@stores/authentication/store';
 
 import ErrorBoundary from './ErrorBoundary';
 import Language from './Language';
