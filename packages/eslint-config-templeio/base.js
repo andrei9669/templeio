@@ -13,23 +13,7 @@ module.exports = {
     },
     sourceType: 'module',
   },
-  plugins: [
-    'sonarjs',
-    'prettier',
-    '@typescript-eslint',
-    'eslint-plugin-tsdoc',
-    'eslint-comments',
-  ],
-  extends: [
-    'eslint:recommended',
-    'plugin:@typescript-eslint/recommended',
-    'plugin:sonarjs/recommended',
-    'airbnb-base',
-    'plugin:eslint-comments/recommended',
-    './rules/import.js',
-    './rules/rules.js',
-    'prettier',
-  ],
+  extends: ['./rules/commonBase.js', 'airbnb-base', './rules/rules.js'],
   overrides: [
     {
       files: ['**/!(setupTests|test/utils|*.spec.*|*.test.*).ts?x'],

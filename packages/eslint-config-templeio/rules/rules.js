@@ -1,4 +1,6 @@
 module.exports = {
+  plugins: ['eslint-comments'],
+  extends: ['plugin:eslint-comments/recommended', './import.js', 'prettier'],
   rules: {
     'prettier/prettier': [
       1,
