@@ -2,9 +2,12 @@
   "version": "0.0.1",
   "scripts": {
     "commit": "cz",
-    "release": "lerna version patch --conventional-commits",
-    "pre-release": "lerna version --conventional-prerelease --conventional-commits",
-    "publish": "lerna publish from-git",
+    "version": "lerna version --conventional-commits",
+    "version:pre": "lerna version --conventional-prerelease --conventional-commits",
+    "version:patch": "lerna version patch --conventional-commits",
+    "version:pre-patch": "lerna version patch --conventional-prerelease --conventional-commits",
+    "publish:release": "lerna publish from-git",
+    "publish:prerelease": "lerna publish from-git --dist-tag next",
     "prepare": "husky install"
   },
   "private": false,
