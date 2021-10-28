@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/andrei9669/templeio/compare/@templeio/eslint-config-templeio@0.1.6...@templeio/eslint-config-templeio@0.3.0) (2021-10-28)
+
+
+### Features
+
+* **dependencies:** bump ([e8b68ee](https://github.com/andrei9669/templeio/commit/e8b68ee669516714509191028dd1a11176c6e426))
+* **nextjs:** add nextjs style rules ([3d401ee](https://github.com/andrei9669/templeio/commit/3d401ee913fe89dff780721bd2330defffab0031))
+
+
+
+
+
 # [0.2.0](https://github.com/andrei9669/templeio/compare/@templeio/eslint-config-templeio@0.1.6...@templeio/eslint-config-templeio@0.2.0) (2021-10-28)
 
 
