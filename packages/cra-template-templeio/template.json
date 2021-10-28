@@ -82,7 +82,7 @@
     },
     "devDependencies": {
       "@microsoft/tsdoc": "^0.13.2",
-      "@templeio/eslint-config-templeio": "^0.1.4",
+      "@templeio/eslint-config-templeio": "latest",
       "@types/jest": "^27.0.2",
       "@types/node": "^16.10.2",
       "@types/react": "^17.0.25",
@@ -94,7 +94,6 @@
       "cross-env": "^7.0.3",
       "customize-cra": "^1.0.0",
       "cypress": "^8.5.0",
-      "eslint": "^7.32.0",
       "husky": "^7.0.2",
       "inquirer-directory": "^2.2.0",
       "lint-staged": "^11.1.2",
