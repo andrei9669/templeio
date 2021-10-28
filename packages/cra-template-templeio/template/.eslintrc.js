@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['@templeio/eslint-config-templeio/cra'],
+  extends: ['@templeio/eslint-config-templeio/react'],
 };
