@@ -7,7 +7,7 @@
   "npmClient": "npm",
   "command": {
     "version": {
-      "message": "chore(release): version",
+      "message": "chore(release): publish",
       "conventionalCommits": true,
       "yes": true
     }

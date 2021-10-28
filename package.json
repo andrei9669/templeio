@@ -4,8 +4,8 @@
     "commit": "cz",
     "version": "lerna version --conventional-commits --no-push",
     "version:pre": "lerna version --conventional-prerelease --conventional-commits --no-push",
-    "publish:release": "lerna publish from-git",
-    "publish:prerelease": "lerna publish from-git --dist-tag next",
+    "publish": "lerna publish from-git",
+    "publish:pre": "lerna publish from-git --dist-tag next",
     "prepare": "husky install"
   },
   "private": false,
