@@ -13,7 +13,7 @@ const useTheme = (): Theme => {
 
   useEffect(() => {
     dispatch(prefersDarkMode);
-  }, [dispatch, prefersDarkMode]);
+  }, [prefersDarkMode, dispatch]);
 
   return useMemo(() => createTheme(isDarkMode), [isDarkMode]);
 };

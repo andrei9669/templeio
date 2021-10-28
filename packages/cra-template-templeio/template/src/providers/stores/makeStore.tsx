@@ -20,7 +20,7 @@ function makeStore<A, S>(
   const useDispatch = () => useContext(DispatchContext);
   const useStore = () => useContext(StoreContext);
 
-  return [StoreProvider, useDispatch, useStore];
+  return [React.memo(StoreProvider), useDispatch, useStore];
 }
 
 export default makeStore;
