@@ -12,6 +12,7 @@ module.exports = {
       files: ['src/pages/_document.tsx'],
       rules: {
         'react/display-name': 0,
+        '@next/next/no-document-import-in-page': 0,
       },
     },
   ],
