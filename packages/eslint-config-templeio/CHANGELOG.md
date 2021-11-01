@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.1](https://github.com/andrei9669/templeio/compare/@templeio/eslint-config-templeio@0.4.0...@templeio/eslint-config-templeio@0.4.1) (2021-11-01)
+
+
+### Bug Fixes
+
+* **nextjs:** add plugin ([42ee02a](https://github.com/andrei9669/templeio/commit/42ee02a8adb37bca63fb1a231335f2c4496abf85))
+
+
+
+
+
 # [0.4.0](https://github.com/andrei9669/templeio/compare/@templeio/eslint-config-templeio@0.3.0...@templeio/eslint-config-templeio@0.4.0) (2021-11-01)
 
 
