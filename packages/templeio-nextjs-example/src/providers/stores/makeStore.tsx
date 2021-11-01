@@ -11,7 +11,7 @@ function makeStore<A, S>(
     value,
     children,
   }) => {
-    const [store, dispatch] = useReducer(reducer, value || initialState);
+    const [store, dispatch] = useReducer(reducer, value ?? initialState);
     return (
       <DispatchContext.Provider value={dispatch}>
         <StoreContext.Provider value={store}>{children}</StoreContext.Provider>
