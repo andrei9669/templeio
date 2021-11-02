@@ -6,7 +6,45 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "plop": "plop",
+    "commit": "cz",
+    "release": "standard-version",
+    "pre-release": "standard-version --prerelease",
+    "prepare": "husky install"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "lint-staged": {
+    "**/*.{js,jsx,ts,tsx,md}": [
+      "eslint --fix",
+      "git add"
+    ],
+    "**/*.{json}": [
+      "prettier --write",
+      "git add"
+    ],
+    "**/*.{css,pcss,scss}": [
+      "stylelint --fix",
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
   "dependencies": {
     "@emotion/cache": "^11.5.0",
@@ -14,20 +52,25 @@
     "@emotion/server": "^11.4.0",
     "@emotion/styled": "^11.3.0",
     "@mui/material": "^5.0.6",
-    "next": "^12.0.1",
+    "next": "^12.0.2",
     "next-i18next": "^8.9.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-i18next": "^11.12.0"
+    "react-i18next": "^11.13.0"
   },
   "devDependencies": {
     "@templeio/eslint-config-templeio": "latest",
     "@types/node": "^16.11.6",
     "@types/react": "^17.0.33",
     "commitizen": "^4.2.4",
+    "husky": "^7.0.4",
     "inquirer-directory": "^2.2.0",
+    "lint-staged": "^11.1.2",
     "npm-check": "^5.9.2",
+    "plop": "^2.7.4",
     "standard-version": "^9.3.2",
+    "stylelint": "^14.0.1",
+    "stylelint-config-recommended": "^6.0.0",
     "typescript": "^4.4.4"
   }
 }
