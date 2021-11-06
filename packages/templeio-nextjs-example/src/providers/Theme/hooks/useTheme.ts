@@ -2,7 +2,6 @@ import { Theme, useMediaQuery } from '@mui/material';
 import { useEffect, useMemo } from 'react';
 
 import { useDarkMode, useDarkModeDispatch } from '@stores/darkMode/store';
-
 import createTheme from 'providers/Theme/createTheme';
 
 const useTheme = (): Theme => {

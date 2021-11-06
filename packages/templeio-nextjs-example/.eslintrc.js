@@ -1,3 +1,3 @@
 module.exports = {
-  'extends': ['@templeio/eslint-config-templeio/nextjs']
-}
+  extends: ['@templeio/eslint-config-templeio/nextjs'],
+};

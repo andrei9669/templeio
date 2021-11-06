@@ -7,14 +7,12 @@ import ErrorBoundary from './ErrorBoundary';
 import ThemeProvider from './Theme/ThemeProvider';
 
 const AppProviders: React.FC<{ emotionCache?: EmotionCache }> = ({
-                                                                   children,
-                                                                   emotionCache
-                                                                 }) => (
+  children,
+  emotionCache,
+}) => (
   <DarkModeProvider>
     <ThemeProvider emotionCache={emotionCache}>
-      <ErrorBoundary>
-        {children}
-      </ErrorBoundary>
+      <ErrorBoundary>{children}</ErrorBoundary>
     </ThemeProvider>
   </DarkModeProvider>
 );

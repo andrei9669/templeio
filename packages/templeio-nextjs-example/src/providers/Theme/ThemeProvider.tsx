@@ -1,8 +1,5 @@
 import React from 'react';
-import {
-  CssBaseline,
-  ThemeProvider as MuiThemeProvider,
-} from '@mui/material';
+import { CssBaseline, ThemeProvider as MuiThemeProvider } from '@mui/material';
 import { CacheProvider, EmotionCache } from '@emotion/react';
 
 import useTheme from './hooks/useTheme';
@@ -16,10 +13,10 @@ const ThemeProvider: React.FC<{ emotionCache?: EmotionCache }> = ({
   const theme = useTheme();
   return (
     <CacheProvider value={emotionCache}>
-        <MuiThemeProvider theme={theme}>
-          <CssBaseline />
-          {children}
-        </MuiThemeProvider>
+      <MuiThemeProvider theme={theme}>
+        <CssBaseline />
+        {children}
+      </MuiThemeProvider>
     </CacheProvider>
   );
 };
