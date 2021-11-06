@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.2](https://github.com/andrei9669/temple/compare/@templeio/templeio-nextjs-example@0.2.1...@templeio/templeio-nextjs-example@0.2.2) (2021-11-06)
+
+
+### Bug Fixes
+
+* **eslint:** remove next core web vitals since they are included in templeio nextjs conf ([142c42e](https://github.com/andrei9669/temple/commit/142c42e558cb58371e49aad8eb14bd213f198ec1))
+
+
+
+
+
 ## [0.2.1](https://github.com/andrei9669/temple/compare/@templeio/templeio-nextjs-example@0.2.0...@templeio/templeio-nextjs-example@0.2.1) (2021-11-01)
 
 **Note:** Version bump only for package @templeio/templeio-nextjs-example
