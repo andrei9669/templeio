@@ -13,7 +13,7 @@ module.exports = {
     },
     sourceType: 'module',
   },
-  plugins: ['eslint-plugin-flowtype', 'react', '@kyleshevlin', 'react-hooks'],
+  plugins: ['react', '@kyleshevlin', 'react-hooks'],
   extends: [
     './rules/commonBase.js',
     'react-app',
