@@ -23,9 +23,12 @@ module.exports = {
     './rules/rules.js',
   ],
   rules: {
-    '@kyleshevlin/prefer-custom-hooks': [
+    'use-encapsulation/prefer-custom-hooks': [
       2,
-      { allow: ['useMemo', 'useState', 'useReducer', 'useRef'] },
+      {
+        allow: ['useMemo', 'useState', 'useReducer', 'useRef'],
+        block: ['useQuery'],
+      },
     ],
 
     'react-hooks/exhaustive-deps': 1,
