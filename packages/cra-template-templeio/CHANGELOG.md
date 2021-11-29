@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/andrei9669/templeio/compare/@templeio/cra-template-templeio@0.3.1...@templeio/cra-template-templeio@0.4.0) (2021-11-29)
+
+
+### Features
+
+* **dependencies:** update ([3dd5087](https://github.com/andrei9669/templeio/commit/3dd5087b29fa9c55ad4360b0c32c631cdeadbd71))
+
+
+
+
+
 ## [0.3.1](https://github.com/andrei9669/templeio/compare/@templeio/cra-template-templeio@0.3.0...@templeio/cra-template-templeio@0.3.1) (2021-11-06)
 
 **Note:** Version bump only for package @templeio/cra-template-templeio
