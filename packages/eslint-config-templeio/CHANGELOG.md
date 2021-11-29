@@ -9,7 +9,6 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 ### Bug Fixes
 
 * **dependencies:** update ([e613969](https://github.com/andrei9669/templeio/commit/e61396989cb2070eeb8124445e21cebcf67b425f))
-* **dependencies:** update ([06fe192](https://github.com/andrei9669/templeio/commit/06fe192cef52c2dabe6363c5937740349dea9394))
 
 
 
