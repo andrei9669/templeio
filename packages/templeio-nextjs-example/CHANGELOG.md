@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/andrei9669/temple/compare/@templeio/templeio-nextjs-example@0.2.4...@templeio/templeio-nextjs-example@0.3.0) (2021-11-29)
+
+
+### Features
+
+* **dependencies:** update ([4d99feb](https://github.com/andrei9669/temple/commit/4d99febde532d5bb5514437ee63d7e27b115308c))
+
+
+
+
+
 ## [0.2.4](https://github.com/andrei9669/temple/compare/@templeio/templeio-nextjs-example@0.2.3...@templeio/templeio-nextjs-example@0.2.4) (2021-11-06)
 
 **Note:** Version bump only for package @templeio/templeio-nextjs-example
