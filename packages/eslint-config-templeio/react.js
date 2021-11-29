@@ -13,7 +13,7 @@ module.exports = {
     },
     sourceType: 'module',
   },
-  plugins: ['react', '@kyleshevlin', 'react-hooks'],
+  plugins: ['react', 'use-encapsulation', 'react-hooks'],
   extends: [
     './rules/commonBase.js',
     'react-app',
