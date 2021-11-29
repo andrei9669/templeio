@@ -32,7 +32,7 @@ npm install @templeio/eslint-config-templeio
 ```js
 // eslintrc.js
 module.exports = {
-  extends: ['@templeio/eslint-config-templeio/cra'],
+  extends: ['@templeio/eslint-config-templeio/react'],
 };
 ```
 ### base
