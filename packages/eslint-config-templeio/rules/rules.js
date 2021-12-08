@@ -37,6 +37,7 @@ module.exports = {
     ],
     'no-underscore-dangle': [1, { allowAfterThis: true }],
 
+    '@typescript-eslint/consistent-type-imports': 1,
     '@typescript-eslint/no-use-before-define': 2,
     '@typescript-eslint/no-unused-vars': 1,
     '@typescript-eslint/strict-boolean-expressions': [
