@@ -17,7 +17,7 @@
 // Import commands.ts using ES2015 syntax:
 import './commands';
 
-// eslint-disable-next-line @typescript-eslint/no-namespace
+// eslint-disable-next-line @typescript-eslint/no-namespace -- cypress requires
 declare namespace Cypress {
   interface Chainable {
     /**

@@ -4,7 +4,7 @@
 // `on` is used to hook into various events Cypress emits
 // `config` is the resolved Cypress config
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
+// eslint-disable-next-line @typescript-eslint/no-unused-vars -- cypress requires
 const func: Cypress.PluginConfig = (on, config) => {};
 
 export default func;
