@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.5.7](https://github.com/andrei9669/templeio/compare/@templeio/eslint-config-templeio@0.5.6...@templeio/eslint-config-templeio@0.5.7) (2021-12-08)
+
+**Note:** Version bump only for package @templeio/eslint-config-templeio
+
+
+
+
+
 ## [0.5.6](https://github.com/andrei9669/templeio/compare/@templeio/eslint-config-templeio@0.5.5...@templeio/eslint-config-templeio@0.5.6) (2021-12-04)
 
 
