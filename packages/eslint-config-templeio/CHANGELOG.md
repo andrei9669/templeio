@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.5.10](https://github.com/andrei9669/templeio/compare/@templeio/eslint-config-templeio@0.5.9...@templeio/eslint-config-templeio@0.5.10) (2021-12-14)
+
+
+### Bug Fixes
+
+* **react script rule:** prefer arrow functions ([c05d955](https://github.com/andrei9669/templeio/commit/c05d955cc4e817b62c7aec63e77ca75166ed0356))
+
+
+
+
+
 ## [0.5.9](https://github.com/andrei9669/templeio/compare/@templeio/eslint-config-templeio@0.5.8...@templeio/eslint-config-templeio@0.5.9) (2021-12-14)
 
 **Note:** Version bump only for package @templeio/eslint-config-templeio
