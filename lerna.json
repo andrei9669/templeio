@@ -6,6 +6,11 @@
   "useWorkspaces": true,
   "npmClient": "npm",
   "command": {
+    "publish": {
+      "ignoreChanges": ["ignored-file", "*.md"],
+      "message": "chore(release): publish %s",
+      "registry": "https://registry.npmjs.org/"
+    },
     "version": {
       "message": "chore(release): publish",
       "conventionalCommits": true,

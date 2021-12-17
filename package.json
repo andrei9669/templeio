@@ -2,9 +2,9 @@
   "version": "0.0.1",
   "scripts": {
     "commit": "cz",
-    "version": "lerna version --conventional-commits --no-push",
-    "version:pre": "lerna version --conventional-prerelease --conventional-commits --no-push",
-    "version:grad": "lerna version --conventional-commits --conventional-graduate --no-push",
+    "version": "lerna version --no-push",
+    "version:pre": "lerna version --conventional-prerelease --no-push",
+    "version:grad": "lerna version --conventional-graduate --no-push",
     "publish": "lerna publish from-git",
     "publish:pre": "lerna publish from-git --dist-tag next",
     "prepare": "husky install"
