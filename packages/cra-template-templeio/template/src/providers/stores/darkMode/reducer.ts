@@ -1,4 +1,4 @@
-import { Reducer } from 'react';
+import type { Reducer } from 'react';
 
 const reducer: Reducer<boolean, boolean | undefined> = (state, action) => {
   if (action === undefined) {

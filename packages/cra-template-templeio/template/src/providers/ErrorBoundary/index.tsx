@@ -1,6 +1,7 @@
-import React, { Component, ErrorInfo, ReactNode } from 'react';
+import type { ErrorInfo, ReactNode } from 'react';
+import React, { Component } from 'react';
 
-import { ErrorBoundaryProps, ErrorBoundaryState } from './index.types';
+import type { ErrorBoundaryProps, ErrorBoundaryState } from './index.types';
 
 export default class ErrorBoundary extends Component<
   ErrorBoundaryProps,

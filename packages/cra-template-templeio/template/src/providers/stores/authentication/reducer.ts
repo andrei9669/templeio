@@ -1,4 +1,4 @@
-import { Reducer } from 'react';
+import type { Reducer } from 'react';
 
 type State = { isAuthorized: boolean };
 type Action = boolean;

@@ -1,4 +1,5 @@
-import React, { Dispatch, Reducer, useContext, useReducer } from 'react';
+import type { Dispatch, Reducer } from 'react';
+import React, { useContext, useReducer } from 'react';
 
 function makeStore<A, S>(
   reducer: Reducer<S, A>,

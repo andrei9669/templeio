@@ -1,7 +1,8 @@
 // see https://testing-library.com/docs/react-testing-library/setup#custom-render
-import React from 'react';
-import { Queries } from '@testing-library/dom';
-import { render, RenderOptions, RenderResult } from '@testing-library/react';
+import type React from 'react';
+import type { Queries } from '@testing-library/dom';
+import type { RenderOptions, RenderResult } from '@testing-library/react';
+import { render } from '@testing-library/react';
 
 import AppProviders from '@/providers/AppProviders';
 
