@@ -20,7 +20,7 @@ module.exports = {
     'airbnb',
     'airbnb/hooks',
     'airbnb-typescript',
-    './rules/rules.js',
+    './rules/commonRules.js',
   ],
   rules: {
     'use-encapsulation/prefer-custom-hooks': [

@@ -1,5 +1,5 @@
 module.exports = {
-  plugins: ['eslint-comments'],
+  plugins: ['eslint-comments', 'prettier'],
   extends: ['plugin:eslint-comments/recommended', './import.js', 'prettier'],
   rules: {
     'prettier/prettier': [

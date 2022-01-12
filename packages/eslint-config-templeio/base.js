@@ -13,5 +13,5 @@ module.exports = {
     },
     sourceType: 'module',
   },
-  extends: ['./rules/commonBase.js', 'airbnb-base', './rules/rules.js'],
+  extends: ['./rules/commonBase.js', 'airbnb-base', './rules/commonRules.js'],
 };

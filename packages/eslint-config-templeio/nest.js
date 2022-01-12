@@ -15,14 +15,12 @@ module.exports = {
     },
     sourceType: 'module',
   },
-  plugins: ['react', '@kyleshevlin', 'react-hooks', '@next/eslint-plugin-next'],
+  plugins: [],
   extends: [
     './rules/commonBase.js',
     'airbnb',
-    'airbnb/hooks',
     'airbnb-typescript',
-    'next',
-    './rules/rules.js',
+    './rules/commonRules.js',
   ],
   overrides: [
     {
