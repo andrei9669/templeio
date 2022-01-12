@@ -2,13 +2,13 @@ import i18n from 'i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 import { initReactI18next } from 'react-i18next';
 
-import english from './en-US.json';
+import enCommon from './en-US/common.json';
 
 export const LOCAL_STORAGE_KEY = 'i18nextLng';
 
 const resources = {
-  eng: {
-    translation: english,
+  en: {
+    common: enCommon,
   },
 };
 
