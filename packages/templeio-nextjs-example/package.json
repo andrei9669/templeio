@@ -11,7 +11,7 @@
     "commit": "cz",
     "release": "standard-version",
     "pre-release": "standard-version --prerelease",
-    "prepare": "husky install"
+    "prepare:comment": "husky install"
   },
   "husky": {
     "hooks": {
@@ -63,7 +63,6 @@
     "@types/node": "^16.11.10",
     "@types/react": "^17.0.37",
     "commitizen": "^4.2.4",
-    "husky": "^7.0.4",
     "inquirer-directory": "^2.2.0",
     "lint-staged": "^12.1.2",
     "npm-check": "^5.9.2",
