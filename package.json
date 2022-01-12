@@ -45,11 +45,12 @@
   },
   "devDependencies": {
     "commitizen": "^4.2.4",
-    "conventional-changelog-conventionalcommits": "^4.6.1",
+    "conventional-changelog-conventionalcommits": "^4.6.3",
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^7.0.2",
     "lerna": "^4.0.0",
-    "lint-staged": "^12.1.2",
+    "lint-staged": "^12.1.7",
+    "npm-check": "^5.9.2",
     "prettier": "^2.5.1",
     "standard-version": "^9.3.1"
   }
