@@ -1,6 +1,6 @@
 {
   "name": "@templeio/eslint-config-templeio",
-  "version": "0.6.0",
+  "version": "0.6.1-next.0",
   "description": "Base eslint conf for templeio projects",
   "main": "index.js",
   "author": "Andrei Sirotin",
@@ -31,27 +31,27 @@
   },
   "devDependencies": {
     "eslint": "^8.11.0",
-    "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-sonarjs": "^0.12.0",
     "eslint-plugin-eslint-comments": "^3.2.0",
-    "eslint-plugin-import": "^2.25.4"
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-sonarjs": "^0.12.0"
   },
   "peerDependencies": {
-    "@next/eslint-plugin-next": "^12.1.0",
-    "eslint-import-resolver-typescript": "^2.5.0",
-    "prettier": "^2.5.1",
-    "@microsoft/tsdoc": "^0.13.2",
     "@babel/eslint-parser": "^7.17.0",
+    "@microsoft/tsdoc": "^0.13.2",
+    "@next/eslint-plugin-next": "^12.1.0",
     "@typescript-eslint/eslint-plugin": "^5.15.0",
     "@typescript-eslint/parser": "^5.15.0",
     "eslint": "^8.11.0",
+    "eslint-import-resolver-typescript": "^2.5.0",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-jest-dom": "^4.0.1",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-sonarjs": "^0.12.0",
     "eslint-plugin-tsdoc": "^0.2.14",
-    "eslint-plugin-use-encapsulation": "^1.0.0"
+    "eslint-plugin-use-encapsulation": "^1.0.0",
+    "prettier": "^2.5.1"
   },
   "gitHead": "e41c076cbd1de6b79bf561ece778326a230b7469"
 }
