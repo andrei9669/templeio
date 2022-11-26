@@ -25,6 +25,8 @@ module.exports = {
     'no-use-before-define': 0,
     'no-fallthrough': 0,
     'no-lonely-if': 2,
+    'no-constant-binary-expression': 2,
+    'logical-assignment-operators': [2, 'always'],
     complexity: 1,
     'prefer-arrow-callback': [2],
     camelcase: [0, { properties: 'never' }],
